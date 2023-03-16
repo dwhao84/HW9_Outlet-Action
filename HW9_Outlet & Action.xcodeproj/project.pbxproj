@@ -13,6 +13,7 @@
 		D311CA9D29B700CA00684F0E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D311CA9B29B700CA00684F0E /* Main.storyboard */; };
 		D311CA9F29B700CB00684F0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D311CA9E29B700CB00684F0E /* Assets.xcassets */; };
 		D311CAA229B700CB00684F0E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D311CAA029B700CB00684F0E /* LaunchScreen.storyboard */; };
+		D3F7DECD29BED6C50012621C /* segmentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3F7DECC29BED6C50012621C /* segmentController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		D311CA9E29B700CB00684F0E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D311CAA129B700CB00684F0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D311CAA329B700CB00684F0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3F7DECC29BED6C50012621C /* segmentController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = segmentController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				D311CA9529B700CA00684F0E /* AppDelegate.swift */,
 				D311CA9729B700CA00684F0E /* SceneDelegate.swift */,
+				D3F7DECC29BED6C50012621C /* segmentController.swift */,
 				D311CA9929B700CA00684F0E /* ViewController.swift */,
 				D311CA9B29B700CA00684F0E /* Main.storyboard */,
 				D311CA9E29B700CB00684F0E /* Assets.xcassets */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D311CA9A29B700CA00684F0E /* ViewController.swift in Sources */,
+				D3F7DECD29BED6C50012621C /* segmentController.swift in Sources */,
 				D311CA9629B700CA00684F0E /* AppDelegate.swift in Sources */,
 				D311CA9829B700CA00684F0E /* SceneDelegate.swift in Sources */,
 			);
